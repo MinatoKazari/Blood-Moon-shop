@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'neo';
+    src: url("font/NEOTERICc.ttf");
+}
+#index-header{
+    width: 100%;
+    height: 80px;
+    background:#000000;
+    position: absolute;
+}
+#logo{
+    width: 200px;
+    height: 7%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    position: absolute;
+    left: 270px;
+    top:26%;
+}
+#logo a{
+    color: white;
+    text-decoration: none;
+}
+#uname{
+    max-width: 180px;
+    /* height: 7%; */
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 475px;
+    top: 32%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: nowrap;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+#uname a{
+    color: white;
+}
+#mya{
+    width: 200px;
+    height: 7%;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 250px;
+    top:32%;
+}
+#mya a{
+    color: white;
+    text-decoration: none;
+}
+#out{
+    width: 200px;
+    height: 7%;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 100px;
+    top:32%;
+}
+#out a{
+    color: white;
+    text-decoration: none;
+}
+#navigation{
+    width: 100%;
+    height:120px;
+    background: #f1f5f9;
+    position: absolute;
+    top:80px;
+}
+#user-nav{
+    width: 1400px;
+    height: 80px;
+    position: relative;
+    top:20px;
+    margin: 0 auto;
+}
+#user-nav ul{
+    width:1640px;
+    height:80px;
+    list-style:none;
+}
+#user-nav ul li{
+    float: left;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 17px;
+}
+#user-nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+}
+#user-nav ul li a:hover{
+    color: #f5f5f5;
+    text-decoration: underline;
+    background-color: #000000;
+}
